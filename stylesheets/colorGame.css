@@ -1,0 +1,38 @@
+body {
+    background-color: #232323;
+    font-family: sans-serif;
+}
+
+#title {
+    color: azure;
+    text-align: center;
+}
+
+#message {
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+#colorDisplay {
+    color: azure;
+    text-align: center;
+}
+
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+#scoreBoard {
+    color: azure;
+    text-align: center;
+    padding-top: 15px;
+}
