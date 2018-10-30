@@ -20,7 +20,7 @@ body {
 
 .square {
     width: 30%;
-    background: purple;
+    border-radius: 25px;
     padding-bottom: 30%;
     float: left;
     margin: 1.66%;
@@ -31,7 +31,7 @@ body {
     max-width: 600px;
 }
 
-#scoreBoard {
+#scoreBoard, #currentHighScoreBoard {
     color: azure;
     text-align: center;
     padding-top: 15px;
