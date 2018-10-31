@@ -14,6 +14,7 @@ var colorDisplay = document.getElementById("colorDisplay");
 var messageDisplay = document.getElementById("message");
 var scoreNumberDisplay = document.getElementById("scoreNumber");
 var currenthighScoreNumberDisplay =document.getElementById("currentHighScore");
+var titleHeader = document.getElementById("titleHeader");
 
 colorDisplay.textContent = pickedColor;
 
@@ -46,7 +47,7 @@ function correctSelection() {
     for(var i = 0; i < squares.length; i++){
         squares[i].style.backgroundColor = pickedColor;
     }
-    
+    titleHeader.style.backgroundColor = pickedColor;
 }
 
 function resetColors() {
